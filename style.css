@@ -1,0 +1,150 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Playfair Display', serif ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+
+
+
+/*--- header section start---*/
+header{
+/*border: 1px solid red;*/
+padding: 20px 0;
+}
+.container{ 
+margin: 0 auto;
+overflow: hidden;
+width: 90%;
+/*border: 1px solid red;*/
+}
+.logo{
+margin-top: 8px;
+float: left;
+width: 12%;
+/*border: 1px solid;*/
+}
+.logo a{
+
+}
+.logo a img{
+width: 100%;
+}
+.menu{
+float: right;
+width: 70%;
+/*border: 1px solid;*/
+}
+.menu ul{
+list-style: none;
+float: right;
+}
+.menu ul li{
+float: left;
+}
+.menu ul li a{
+margin: 0 60px;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+
+
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+color: rgb(255, 138, 138);
+}
+/*--- header section end---*/
+
+/*----banner section start----*/
+.container2{
+margin: 0 auto;
+width: 90%;
+border: 1px solid red;
+}
+.banner{
+padding: 40px 0;
+}
+.banner img{
+width: 100%;
+}
+
+/*----banner section end----*/
+
+/*--content section1 start--*/
+.getaway{
+
+}
+.container3{
+margin: 0 auto;
+width: 80%;
+border: 1px solid green;
+}
+.g_content{
+
+}
+.c_light{
+margin: 0;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+font-size: 14px;
+color: #b4ad9e;
+text-transform: uppercase;
+}
+.c_tittle{
+margin: 0;
+font-size: 30px;
+font-weight: 400;
+text-transform: capitalize;
+
+}
+.m_t_b{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.c_text{
+margin: 0;
+line-height: 25px;
+
+}
+.m_b{
+    margin-bottom: 45px;
+}
+/*content section1 end*/
+
+/*blog start*/
+.blog{
+
+}
+.blog_content{
+overflow: hidden;
+}
+.b_single{
+width: 45%;
+/*border: 1px solid rebeccapurple;  */
+float: left;
+}
+.b_single:nth-child(even){
+    margin: 65px;
+}
+.b_img{
+margin-bottom: 25px;
+}
+.b_img img{
+width: 100%;
+}
+.mtb{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+/*blog end*/
+
+
